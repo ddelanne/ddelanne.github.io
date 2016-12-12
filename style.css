@@ -12,3 +12,9 @@ p{
   font-size: 16px;
   color: blue;
 }
+@media (min-width:992px){
+  .embed-responsive-16by9{
+    padding-bottom: 25%;
+
+  }
+}
