@@ -9,12 +9,6 @@ p{
 }
 #first-paragraph {
   font-family: helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 32px;
   color: blue;
-}
-@media (min-width:992px){
-  .embed-responsive-16by9{
-    padding-bottom: 25%;
-
-  }
 }
