@@ -11,28 +11,41 @@
 <body id="index">
 
   <div class = "container reponsive">
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Danny Delannes-Molka</a>
+  <div class = "navbar-wrapper";
+    <div class = "container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Danny Delannes-Molka</a>
+
+        <button type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class ="icon-bar"></span>
+          <span class ="icon-bar"></span>
+          <span class ="icon-bar"></span>
+        </button>
+        </div>
+          <div id="navbar" class = "collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+                  <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Videos
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Video1.html">Internet vs. Intranet</a></li>
+                  <li><a href="Video2.html">How a Brute Force Attack Work</a></li>
+                  <li><a href="Video3.html">How does Onion Routing Work</a></li>
+                </ul>
+              </li>
+              <li><a href="Downloads.html">Projects</a></li>
+              <li><a href="Resume.html">About Me</a></li>
+              <li><a href="Experiments.html">Experiments</a></li>
+            </ul>
+          </div>
+          </div>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-            <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="index.html">Videos
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="Video1.html">Internet vs. Intranet</a></li>
-            <li><a href="Video2.html">How a Brute Force Attack Work</a></li>
-            <li><a href="Video3.html">How does Onion Routing Work</a></li>
-          </ul>
-        </li>
-        <li><a href="Downloads.html">Projects</a></li>
-        <li><a href="Resume.html">About Me</a></li>
-        <li><a href="Experiments.html">Experiments</a></li>
-      </ul>
-    </div>
-  </nav>
+      </div>
+    </nav>
   <p><img src="danny 4.jpg" title="A Picture of Me"></p>
   <p>My Name is Danny Delannes-Molka</p>
   <p>I go to University At Buffalo</p>
