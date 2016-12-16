@@ -25,3 +25,6 @@ body{
   background-color: green;
 }
 img {max-width:100%}
+h{
+  word-wrap: break-word;
+}
